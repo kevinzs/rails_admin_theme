@@ -296,7 +296,7 @@ a.navbar-brand {
   }
 
   li.active a {
-    background: darken($primary, 10%);
+    background: $secondary;
     color: $secondary !important;
 
     &:hover {

@@ -250,6 +250,11 @@ a.navbar-brand {
   color: $secondary !important;
 }
 
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background: darken($secondary, 10%) !important;
+}
+
 .root_links {
   .dashboard_root_link,
   .edit_user_root_link,
